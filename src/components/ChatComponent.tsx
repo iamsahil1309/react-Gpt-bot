@@ -2,7 +2,8 @@ import { LuBot, LuSendHorizontal } from "react-icons/lu"
 import {useState} from "react"
 import Markdown from "react-markdown"
 import useChatbot from "../hooks/useChatbot"
-import useChatScroll from "../hooks/useChatscroll"
+import useChatScroll from "../hooks/useChatScroll"
+
 
 
 const ChatComponent : React.FunctionComponent = () => {
